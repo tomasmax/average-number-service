@@ -1,4 +1,4 @@
-# TS-Node-Express
+# TS-Node-Express average number service
 
 A TypeScript-based Node.js application using the Express.js framework. The application is designed to fetch random numbers from an external API and provide an endpoint to get the average of these numbers.
 
