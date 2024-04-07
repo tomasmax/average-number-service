@@ -1,7 +1,8 @@
 # TS-Node-Express average number service
 
 A TypeScript-based Node.js application using the Express.js framework. The application is designed to fetch random numbers from an external API and provide an endpoint to get the average of these numbers.
-This project was initiated using one of my projects [Combat Service TS](https://github.com/tomasmax/combat-service-ts) as a base. The set up, structure, and some functionalities were adopted from this previous Node.js project, but simplifying bit.
+
+This project was initiated using one of my projects [Combat Service TS](https://github.com/tomasmax/combat-service-ts) as a base. The set up, structure, and some common functionalities were adopted from this previous Node.js project, but simplifying it for the needs of this one.
 
 ## Structure
 
