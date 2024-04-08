@@ -8,7 +8,6 @@ jest.mock('axios')
 
 let app: App
 let numbersRoute: NumbersRoute
-let numberService: NumbersService
 const mockAxiosGet = axios.get as jest.MockedFunction<typeof axios.get>
 
 beforeAll(() => {
@@ -24,7 +23,6 @@ beforeEach(async () => {
 
 afterEach(() => {
   NumbersService.clearInstance()
-  numberService = null
   jest.useRealTimers()
 })
 

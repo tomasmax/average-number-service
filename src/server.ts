@@ -6,4 +6,3 @@ const app = new App([new IndexRoute(), new NumbersRoute()])
 
 const server = app.listen()
 app.onExit(server)
-

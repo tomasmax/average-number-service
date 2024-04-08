@@ -1,20 +1,17 @@
 import axios from 'axios'
-import NumbersService, { API_URL } from '@/services/numbers.service'
+import NumbersService from '@/services/numbers.service'
 
 jest.mock('axios')
 const mockedAxios = axios as jest.Mocked<typeof axios>
 
 describe('NumbersService', () => {
-  let numbersService: NumbersService
-
   beforeEach(() => {
     jest.useFakeTimers()
-    numbersService = NumbersService.getInstance()
+    NumbersService.getInstance()
   })
 
   afterEach(() => {
     NumbersService.clearInstance()
-    numbersService = null
     jest.useRealTimers()
   })
 

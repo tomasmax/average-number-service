@@ -12,7 +12,7 @@ class NumberModel implements Number {
   public getAverage(): number {
     return this.count ? this.sum / this.count : 0
   }
-  // Storing Every Number in an Array 
+  // Storing Every Number in an Array
   //    numbers: number[] = []
 
   //    public addNumber(number: number): void {
